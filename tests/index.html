@@ -4,10 +4,13 @@
         <meta charset="utf-8">
         <title>AngularJS Building</title>
         <script src="../dist/app-deps.js"></script>
+        <script>
+            angular.module("test", ["hydra.gui"]);
+        </script>
     </head>
-    <body ng-app="my.module">
+    <body ng-app="test">
     
-        <my-component></my-component>
+        <hmodal></hmodal>
     
     </body>
 </html>
